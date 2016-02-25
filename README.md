@@ -1,11 +1,11 @@
-docker-for-ubuntu Ansible role
+Docker Ansible role
 =========
 
 It let to get a docker setup on your machine with:
-- docker itself
-- docker-compose as container orchestration tool
-- docker-machine as VM orchestration tool
-- virtualbox as VM provider
+- **docker** itself
+- **docker-compose** as container orchestration tool
+- **docker-machine** as VM orchestration tool
+- **virtualbox** as VM provider
 
 Requirements
 ------------
