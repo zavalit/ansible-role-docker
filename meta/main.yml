@@ -14,10 +14,10 @@ galaxy_info:
     - trusty
 
   galaxy_tags:
-    "docker"
-    "docker-compose"
-    "docker-machine"
-    "virtualbox"
+    - "docker"
+    - "docker-compose"
+    - "docker-machine"
+    - "virtualbox"
 
 
 dependencies: []
