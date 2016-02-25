@@ -19,7 +19,7 @@
     when: current_docker_compose_version.stdout != "{{ docker_compose_version }},"
 
 #docker-machine
--   name: Check docker-machine version
+  - name: Check docker-machine version
     shell: docker-machine --version | awk '{ print $3 }'
     ignore_errors: True
     register: current_docker_machine_version
@@ -28,7 +28,7 @@
     when: current_docker_machine_version.stdout != "{{ docker_machine_version }},"
 
 #virtualbox
--   name: Check virtualbox version
+  - name: Check virtualbox version
     shell: virtualbox --help | awk 'NR==1{ print $5}'
     ignore_errors: True
     register: current_virtualbox_version
