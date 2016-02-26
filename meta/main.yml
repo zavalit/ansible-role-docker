@@ -15,8 +15,8 @@ galaxy_info:
 
   galaxy_tags:
     - "docker"
-    - "docker compose"
-    - "docker machine"
+    - "compose"
+    - "machine"
     - "virtualbox"
 
 

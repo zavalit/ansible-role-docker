@@ -26,7 +26,7 @@ Example Playbook
 
     - hosts: servers
       roles:
-         - zavalit.ansible-role-docker
+         - zavalit.docker
 
 License
 -------
